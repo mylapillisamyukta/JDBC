@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>login form</title>
+<style>
+table, th, td {
+	border: 1px solid black
+}
+</style>
+</head>
+<body>
+	<form action="/loginservlet" method="post">
+		<h2>LOGIN FORM</h2>
+		<table>
+			<tr>
+				<td><label>user name:</label></td>
+				<td><input type="text" name="username" required /><br></td>
+			</tr>
+			<tr>
+				<td><label>password</label></td>
+				<td><input type="password" name="password" required></td>
+			</tr>
+			<tr>
+				<td><button>login</button></td>
+				<td><button >register</button></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>
